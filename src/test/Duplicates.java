@@ -22,6 +22,10 @@ public static void main(String[] args) {
 		li.add(20);
 		li.addAll(ex1);
 		System.out.println(li);
+		li.removeAll(ex1);
+		System.out.println(li);
 
+
+	
 }
 }
